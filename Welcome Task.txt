@@ -1,9 +1,0 @@
-Ensinando uma IA a reconhecer uma pessoa, objeto, ou personagem. 
-Nesse projeto ensinei a IA a reconhecer a Taylor Swift, usei fotos da Taylor em lugares públicos com vários fãs, dessa forma a IA aprenderia a diferenciar a Taylor de outras mulheres. 
-O projeto foi feito com 114 fotos, 20% delas foi usada na etapa de teste e as outras foram usadas na validação, não tem 100% de accuarecy, porém ela acertou quase todas as vezes e reconheceu a Taylor em meio a multidões. 
-
-Collab:
-https://colab.research.google.com/drive/1NDAIrlHLugOiHpTQAK96nCZsWFf-FqLI?usp=sharing
-
-Drive:
-https://drive.google.com/drive/folders/1AS5CHH_fJ75dSbYYZCwSWt_teaIj9wMm?usp=sharing
