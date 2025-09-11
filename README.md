@@ -34,6 +34,38 @@ Essas imagens poderiam ser usadas para treinar uma IA de reconhecimento facial q
 
 ---
 
+## 📌 Projeto 2 — Assistente de Cibersegurança com IA
+
+Este projeto foi desenvolvido em **Python** no **Google Colab**, utilizando o **Groq LLM** para criar um assistente inteligente voltado à **cibersegurança**.
+
+A ideia foi ensinar a IA a **identificar falhas de segurança** em exemplos simulados, como:
+- 🔍 **Portas TCP abertas** — a IA consegue reconhecer portas vulneráveis a partir de uma lista de strings e sugere ações para fechá-las.  
+- ⏱️ **Análise de logs** — identifica acessos fora do horário comercial e indica que o acesso deve ser bloqueado.  
+- 🚫 **Controle de acesso** — a lógica de corte está implementada, mas como o Colab não permite automação direta, as ações são **simuladas**.  
+
+### 🛠️ Tecnologias
+- Python (Google Colab)  
+- Groq LLM  
+- Scripts para análise de portas e logs
+
+## 🚀 Como Executar
+1. Abra o [notebook no Google Colab](https://colab.research.google.com/drive/1OLW49HTNp1YbF7lFUzhgjsY4nE9M-hVM#scrollTo=HcihFKNnQxBR).  
+2. Execute as células para carregar as dependências e inicializar o modelo.  
+3. Teste com a lista de portas e logs fornecidos para simular cenários de segurança.
+
+### 🎯 Aplicações
+Este projeto mostra como a IA pode ser aplicada em **cibersegurança**, servindo de base para:  
+- Detecção de vulnerabilidades em redes;  
+- Apoio a sistemas de monitoramento e resposta a incidentes;  
+- Automação de tarefas de segurança.  
+
+### 🚀 Próximos Passos
+- Implementar a automação fora do Colab, rodando em ambiente real;  
+- Ampliar a análise de logs com técnicas de **Machine Learning** para anomalias;  
+- Integrar a solução com monitoramento em tempo real.
+
+---
+
 ## 🔮 Próximos Passos
 - Adicionar novos projetos de IA;  
 - Criar experimentos voltados especificamente para **Cibersegurança**;  
