@@ -66,6 +66,47 @@ Este projeto mostra como a IA pode ser aplicada em **cibersegurança**, servindo
 
 ---
 
+## 📌 Projeto 3 — Detecção de Faces com OpenCV (TCC)
+
+Este é o projeto mais recente, desenvolvido como parte do meu **Trabalho de Conclusão de Curso (TCC)** em Cibersegurança.
+
+### 🎯 Objetivo
+
+O sistema carrega imagens, detecta rostos utilizando o classificador **Haar Cascade** do OpenCV e exibe as imagens com as faces demarcadas por retângulos verdes. Este é o primeiro passo para um sistema mais complexo de **reconhecimento facial** voltado para segurança em ambientes universitários.
+
+### 🛠️ Tecnologias Utilizadas
+
+- **Python 3.12**
+- **OpenCV (cv2)** — processamento de imagens
+- **Matplotlib** — exibição gráfica
+
+### 📁 Estrutura
+
+deteccao_faces/
+├── detector_faces.py # Script principal
+├── imagens/ # Imagens para teste
+├── modelos/ # Classificador Haar Cascade
+└── README.md # Documentação completa
+
+
+### 🔍 Funcionalidades
+
+- Leitura de imagens da pasta `imagens/`
+- Detecção de faces com o algoritmo Haar Cascade
+- Visualização com retângulos verdes nas faces detectadas
+- Feedback no terminal com o número de faces encontradas
+
+### 🚀 Como Executar
+
+  '''bash
+    cd deteccao_faces
+    python3 -m venv venv
+    source venv/bin/activate  # Linux/Mac
+    pip install opencv-python matplotlib
+    python detector_faces.py 
+
+---
+
 ## 🔮 Próximos Passos
 - Adicionar novos projetos de IA;  
 - Criar experimentos voltados especificamente para **Cibersegurança**;  
